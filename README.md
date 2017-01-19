@@ -1,14 +1,10 @@
----
-title: "David L. Nieves"
-author: "David L. Nieves"
----
 # Using Lua in Ruby
 
 ## A simple class/helper to evaluate Lua code
 
 The [rufus-lua](https://github.com/jmettraux/rufus-lua) gem is interesting and useful. This is a "manager" class.
 
-```
+```ruby
 class LuaEngine
   attr_accessor :_lua, :errors 
   def self.instance
