@@ -46,5 +46,5 @@ class LuaEngine
 end
 ```
 					        
-I hope this was useful.
+I hope this is useful.
 
