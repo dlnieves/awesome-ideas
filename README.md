@@ -1,6 +1,9 @@
 # Using Lua in Ruby
+
 ## A simple class/helper to evaluate Lua code
-* The rufus-lua gem is interesting and useful. This is a "manager" class.
+
+The rufus-lua gem is interesting and useful. This is a "manager" class.
+
 ```
 class LuaEngine
   attr_accessor :_lua, :errors
