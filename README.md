@@ -1,6 +1,3 @@
-# Using Lua in Ruby
-
-
 <ul>
   {% for post in site.posts %}
     <li>
@@ -9,6 +6,7 @@
   {% endfor %}
 </ul>
 
+# Using Lua in Ruby
 
 ## A simple class/helper to evaluate Lua code
 
