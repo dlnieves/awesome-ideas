@@ -1,3 +1,7 @@
+---
+title: "David L. Nieves"
+author: "David L. Nieves"
+---
 # Using Lua in Ruby
 
 ## A simple class/helper to evaluate Lua code
