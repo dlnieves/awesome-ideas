@@ -1,8 +1,3 @@
----
-title: David L. Nieves
-layout: post
----
-
 # Using Lua in Ruby
 
 ## A simple class/helper to evaluate Lua code
