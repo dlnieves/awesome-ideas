@@ -1,5 +1,15 @@
 # Using Lua in Ruby
 
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+
 ## A simple class/helper to evaluate Lua code
 
 The [rufus-lua](https://github.com/jmettraux/rufus-lua) gem is interesting and useful. This is a "manager" class.
