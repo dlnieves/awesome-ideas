@@ -16,7 +16,7 @@
     <title>{{ page.title | default: site.github.repository_name }}</title>
   </head>
 
-  <body>
+  <body role="document">
 
     <!-- MAIN CONTENT -->
 
@@ -50,16 +50,26 @@
     </nav>
 
     <div class="container">
-       {{ content }}
-    </div>
-    <div class="footer">
+      <div class="col-sm-12">
+        <div class="col-sm-8">
+          {{ content }}
+        </div>
+        <div class="col-sm-4">
+        
+        </div>
+      </div>
+       
+      
+        <div class="footer">
      
         {% if site.github.is_project_page %}
         <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
         <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
       
+      </div>
     </div>
+  
 
 
 
