@@ -1,3 +1,6 @@
+---
+title: Using Lua in Ruby
+---
 <ul>
   {% for post in site.posts %}
     <li>
