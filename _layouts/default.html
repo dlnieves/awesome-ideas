@@ -31,17 +31,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="{{ site.url }}">David L. Nieves</a>
+          <a class="navbar-brand" href="{{ site.url }}">Awesome Ideas</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="{{ site.url }}">Home</a></li>
-            
-           
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="{{ site.url }}">About</a></li>
-            
+            <li><a href="{{ site.github.owner_url }}">About</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -62,10 +59,8 @@
           </ul>
         </div>
       </div>
-       
-      
+    
         <div class="footer">
-     
         {% if site.github.is_project_page %}
         <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
@@ -73,9 +68,5 @@
       
       </div>
     </div>
-  
-
-
-
   </body>
 </html>
